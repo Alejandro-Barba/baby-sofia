@@ -12,16 +12,15 @@
   margin: 0px;
   text-align: center;
   background-color: #f8eeec;
-  animation: opening 2s ease-in-out ;
+  animation: opening 2s ease-in-out;
 }
 
-
-@keyframes opening{
-  from{
-      opacity: 0;
+@keyframes opening {
+  from {
+    opacity: 0;
   }
-  to{
-      opacity: 1;
+  to {
+    opacity: 1;
   }
 }
 .App-header {
@@ -85,6 +84,7 @@
 
 .footer h3 {
   margin: 7px;
+  margin-bottom: 2px;
 }
 
 .footer a {
@@ -138,10 +138,22 @@
   font-size: 1.4em;
   margin: 5px 10px;
 }
+.frase {
+  max-width: 700px;
+  color: #f79eb0;
+  font-family: Champagne;
+  font-size: 1.6em;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
 
 .footer2 {
   height: auto;
-  width: 30vw;
+  width: 60vw;
   align-items: center;
   display: flex;
   align-items: center;
@@ -154,9 +166,9 @@
 img {
   width: 50vw;
   margin: 5px 0px;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
-.footer2 a:hover{
+.footer2 a:hover {
   transform: scale(1.1);
 }
 
@@ -189,27 +201,48 @@ img {
     justify-content: space-around;
     width: 60vw;
   }
-  .footer2 a,img{
+  .footer2 a,
+  img {
     width: 20vw;
     margin: 0px, 22px;
   }
-
 }
 
-.izquierdo{
+.izquierdo {
   z-index: 50;
   position: fixed;
   bottom: 10%;
   left: 0%;
-  animation: hello 4s linear infinite ;
+  animation: hello 4s linear infinite;
   transform: translateX(-100%);
   animation-delay: 12s;
-  animation-iteration-count: 1
+  animation-iteration-count: 1;
 }
 
-@keyframes hello{
-  0% {transform : translateX(-100%)}
-  50% {transform : translateX(0%)}
-  100%{transform : translateX(-100%)}
+@keyframes hello {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
+.footer img{
+  animation: waze 1.5s  infinite;
+}
+
+@keyframes waze {
+  0% {
+    transform: translatey(-4%);
+  }
+  50% {
+    transform: translatey(0%);
+  }
+  100% {
+    transform: translatey(-4%);
+  }
 }
