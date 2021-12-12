@@ -2,11 +2,13 @@ import "./App.css";
 import Header from "./header";
 import Footer from "./footer"
 import Footer2 from "./footer2";
+import Bunny from "./bunny";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Bunny />
       <iframe
         className="mapa"
         title="mapa"
