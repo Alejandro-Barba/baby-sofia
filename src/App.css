@@ -28,6 +28,9 @@
   border: 0;
   width: 100%;
   height: 50vh;
+  margin-bottom: 2.5vh;
+  margin-top: 2.2vh;
+  padding-bottom: 10px;
 }
 
 .headerImg {
@@ -123,7 +126,8 @@
   color: #f6acbb;
   font-family: Champagne;
   font-size: 1.4em;
-  margin: 5px 6px;
+  margin: 5px 10px
+  
 }
 
 .footer2 {
