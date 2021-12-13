@@ -7,6 +7,7 @@
   font-family: "DarkLarch";
   src: url(./images/DarkLarch.ttf) format("opentype");
 }
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
 
 .App {
   margin: 0px;
@@ -59,6 +60,7 @@
   height: 100vh;
   width: 100vw;
   font-family: Champagne;
+  
   display: flex;
   flex-direction: column;
 }
@@ -129,7 +131,15 @@
   margin-top: 60vh;
   color: #f6acbb;
   font-family: Champagne;
+  font-family: Overlock;
   font-size: 1.5em;
+  font-weight: 600;
+}
+
+
+.headerDiv em{
+  font-weight: 800;
+  font-style: normal;
 }
 
 .headerDiv p {
