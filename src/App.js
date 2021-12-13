@@ -18,7 +18,7 @@ function App() {
       ></iframe>
       <Footer />
       <div className="frase">
-      <p >El mejor regalo que nos puedes dar es tu presencia pero si quieres obsequiarle algo a Sofi aqui tienes algunas sugerencias:</p>
+      <p >El mejor regalo que nos puedes dar es tu presencia pero si quieres obsequiarle algo a Sofi aquí tienes algunas sugerencias:</p>
       </div>
       <Footer2 />
       <h1 className="esperamos" >Te esperamos!</h1>
