@@ -52,6 +52,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  pointer-events: none;
   top: 0;
   left: 0;
   bottom: 0;
@@ -128,6 +129,7 @@
   -webkit-text-fill-color: transparent;
 }
 .headerDiv h2 {
+  margin-top: 55vh;
   color: #f6acbb;
   font-family: Overlock;
   font-size: 1.5em;
