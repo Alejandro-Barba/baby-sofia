@@ -3,6 +3,7 @@ import Header from "./header";
 import Footer from "./footer"
 import Footer2 from "./footer2";
 import Bunny from "./bunny";
+import Footer3 from "./footer3";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <p >El mejor regalo que nos puedes dar es tu presencia pero si quieres obsequiarle algo a Sofi aquí tienes algunas sugerencias:</p>
       </div>
       <Footer2 />
-      <h1 className="esperamos" >Te esperamos!</h1>
+      <Footer3 />
     </div>
   );
 }

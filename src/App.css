@@ -131,9 +131,9 @@
 .headerDiv h2 {
   margin-top: 55vh;
   color: #f6acbb;
-  font-family: Overlock;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-family: Champagne;
+  font-size: 1.7em;
+  font-weight: 800;
 }
 
 
@@ -255,4 +255,8 @@ img {
   100% {
     transform: translatey(-4%);
   }
+}
+
+.footer3 img{
+  border-radius: 10px;
 }
