@@ -260,3 +260,15 @@ img {
 .footer3 img{
   border-radius: 10px;
 }
+
+.footer2 a{
+  text-decoration: none;
+}
+
+.footer2 h2{
+  color:#ce7f8f;
+}
+
+.footer2 h2:active{
+  color:#ce7f8f;
+}
