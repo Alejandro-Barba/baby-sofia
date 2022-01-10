@@ -7,7 +7,7 @@
   font-family: "DarkLarch";
   src: url(./images/DarkLarch.ttf) format("opentype");
 }
-@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap");
 
 .App {
   margin: 0px;
@@ -61,7 +61,7 @@
   height: 100vh;
   width: 100vw;
   font-family: Champagne;
-  
+
   display: flex;
   flex-direction: column;
 }
@@ -136,29 +136,29 @@
   font-weight: 800;
 }
 
-
-.headerDiv em{
+.headerDiv em {
   font-weight: 800;
   font-style: normal;
 }
 
 .headerDiv p {
-  color: #f6acbb;
+  color: #c54760;
   font-family: Champagne;
-  font-size: 1.4em;
-  margin: 5px 10px;
+  font-size: 1.8em;
+  margin: 5px auto;
+  max-width: 80vw;
 }
 .frase {
   max-width: 700px;
   color: #f79eb0;
   font-family: Champagne;
   font-size: 1.6em;
-    width: 70vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
 }
 
 .footer2 {
@@ -241,8 +241,8 @@ img {
   }
 }
 
-.footer img{
-  animation: waze 1.5s  infinite;
+.footer img {
+  animation: waze 1.5s infinite;
 }
 
 @keyframes waze {
@@ -257,18 +257,18 @@ img {
   }
 }
 
-.footer3 img{
+.footer3 img {
   border-radius: 10px;
 }
 
-.footer2 a{
+.footer2 a {
   text-decoration: none;
 }
 
-.footer2 h2{
-  color:#ce7f8f;
+.footer2 h2 {
+  color: #ce7f8f;
 }
 
-.footer2 h2:active{
-  color:#ce7f8f;
+.footer2 h2:active {
+  color: #ce7f8f;
 }
